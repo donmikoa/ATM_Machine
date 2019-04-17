@@ -19,3 +19,15 @@ while True:
             n = 0
         elif user == users[1]:
             n = 1
+        else:
+            n = 2
+        break
+    else:
+        print('----------------')
+        print('****************')
+        print('INVALID USERNAME')
+        print('****************')
+        print('----------------')
+
+# Checking the validity of the pin entered
+
