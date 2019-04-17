@@ -30,4 +30,7 @@ while True:
         print('----------------')
 
 # Checking the validity of the pin entered
+while count < 3:
+    print('------------------')
+    print('******************')
 
