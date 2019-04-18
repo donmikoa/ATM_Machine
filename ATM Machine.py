@@ -49,5 +49,16 @@ while count < 3:
                 print('-----------')
                 print()
 
+        if user == "user2":
+            if pin == pins[1]:
+                break
+            else:
+                print('-----------')
+                print('***********')
+                print('INVALID PIN')
+                print('***********')
+                print('-----------')
+                print()
+
 
 
