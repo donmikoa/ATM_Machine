@@ -4,7 +4,7 @@ import os
 
 #  Creating The List Of Users, Pin And Account Statement
 
-users = ["user", "user2", "user3"]
+users = ["user1", "user2", "user3"]
 pins = ["1234", "2222", "3333"]
 amounts = [1000, 2000, 3000]
 count = 0
@@ -36,5 +36,18 @@ while count < 3:
     pin = str(getpass.getpass("PLEASE ENTER YOUR PIN"))
     print('******************')
     print('------------------')
+    if pin.isdigit():
+        if user == "user1":
+            if pin == pins[0]:
+                break
+            else:
+                count += 1
+                print('-----------')
+                print('***********')
+                print('INVALID PIN')
+                print('***********')
+                print('-----------')
+                print()
+
 
 
