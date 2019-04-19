@@ -60,5 +60,11 @@ while count < 3:
                 print('-----------')
                 print()
 
+        if user == "user3":
+            if pin == pin[2]:
+                break
+            else:
+
+
 
 
