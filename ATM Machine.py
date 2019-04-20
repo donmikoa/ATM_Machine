@@ -64,6 +64,22 @@ while count < 3:
             if pin == pin[2]:
                 break
             else:
+                print('-----------')
+                print('***********')
+                print('INVALID PIN')
+                print('***********')
+                print('-----------')
+                print()
+    else:
+        print('------------------------')
+        print('************************')
+        print('PIN CONSISTS OF 4 DIGITS')
+        print('************************')
+        print('------------------------')
+        count += 1
+
+
+
 
 
 
