@@ -78,6 +78,15 @@ while count < 3:
         print('------------------------')
         count += 1
 
+# If The Pin Entered 3 Times Is Invalid
+if count == 3:
+    print('-----------------------------------')
+    print('***********************************')
+    print('3 UNSUCCESFUL PIN ATTEMPTS, EXITING')
+    print('!!!!!YOUR CARD HAS BEEN LOCKED!!!!!')
+    print('***********************************')
+    print('-----------------------------------')
+    exit()
 
 
 
