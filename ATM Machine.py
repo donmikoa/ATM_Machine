@@ -98,6 +98,22 @@ print("--------------------------")
 print("**************************")
 print(str.capitalize(users[n]), "Welcome to ATM BANK")
 print("**************************")
+print("----------ATM SYSTEM-----------")
+#  Creating The Menu
+while True: #  os.system("clear")
+    print("-------------------------------")
+    print("*******************************")
+    response = input(
+        "SELECT FROM FOLLOWING OPTIONS: \nStatement__(S) \nWithdraw___(W) "
+        "\nLodgement__(L)  \nChange PIN_(P)  "
+        "\nQuit_______(Q) \n: ").lower()
+    print("*******************************")
+    print("-------------------------------")
+    valid_responses = ["s", "w", "l", "p", "q"]
+
+
+
+
 
 
 
