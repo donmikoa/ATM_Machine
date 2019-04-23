@@ -114,6 +114,7 @@ while True: #  os.system("clear")
     if response == "s":
         print("---------------------------------------------")
         print("*********************************************")
+        print(str.capitalize(users[n]), "YOU HAVE ", amounts[n], "DOLLAR ON YOUR ACCOUNT.")
         print("*********************************************")
         print("---------------------------------------------")
 
