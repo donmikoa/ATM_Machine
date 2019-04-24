@@ -121,9 +121,12 @@ while True: #  os.system("clear")
     elif response == "w":
         print("---------------------------------------------")
         print("*********************************************")
-        print(str.capitalize(users[n]), "YOU HAVE ", amounts[n], "DOLLAR ON YOUR ACCOUNT.")
+        cash_out = int(input("ENTER THE AMOUNT YOU WOULD LIKE TO WITHDRAW"))
         print("*********************************************")
         print("---------------------------------------------")
+        if cash_out%10 != 0:
+            print("---------------------------------------------")
+            print("*********************************************")
 
 
 
