@@ -127,9 +127,11 @@ while True: #  os.system("clear")
         if cash_out%10 != 0:
             print("---------------------------------------------")
             print("*********************************************")
-            print('AMOUNT YOU WANT TO WITHDRAW MUST TO MATCH 10 EURO NOTES")
-            print('******************************************************")
-            print('------------------------------------------------------')
+            print("AMOUNT YOU WANT TO WITHDRAW MUST TO MATCH 10 EURO NOTES")
+            print("******************************************************")
+            print("------------------------------------------------------")
+        elif cash_out > amounts[n]:
+
 
 
 
