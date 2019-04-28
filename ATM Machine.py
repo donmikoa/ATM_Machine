@@ -138,7 +138,11 @@ while True: #  os.system("clear")
             print("-----------------------------")
         else:
             amounts[n] = amounts[n] - cash_out
-            print()
+            print("-----------------------------------")
+            print("***********************************")
+            print("YOUR NEW BALANCE IS: ", amounts[n], "DOLLAR")
+            print("***********************************")
+            print("-----------------------------------")
 
 
 
