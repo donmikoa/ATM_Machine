@@ -136,6 +136,9 @@ while True: #  os.system("clear")
             print("YOU HAVE INSUFFICIENT BALANCE")
             print("*****************************")
             print("-----------------------------")
+        else:
+            amounts[n] = amounts[n] - cash_out
+            print()
 
 
 
