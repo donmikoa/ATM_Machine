@@ -162,9 +162,17 @@ while True: #  os.system("clear")
             amounts[n] = amounts[n] + cash_in
             print("----------------------------------------")
             print("****************************************")
-            print("YOUR NEW BALANCE IS: ", amounts[n], "EURO")
+            print("YOUR NEW BALANCE IS: ", amounts[n], "DOLLAR")
             print("****************************************")
             print("----------------------------------------")
+    elif  response == "p":
+        print("-----------------------------")
+        print("*****************************")
+        new_pin = str(getpass.getpass("ENTER A NEW PIN: "))
+        print("*****************************")
+        print("-----------------------------")
+
+
 
 
 
