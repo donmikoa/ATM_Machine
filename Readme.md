@@ -1,4 +1,4 @@
-This one of the project I am creating written in python. 
+This is one of the project I am creating written in python. 
 It follows the concept of an ATM machine. 
 Where register users/account owners can view their account statement, 
 withdraw money, deposit money as well as change their pin. 
