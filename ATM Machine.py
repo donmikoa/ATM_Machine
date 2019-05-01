@@ -171,6 +171,7 @@ while True: #  os.system("clear")
         new_pin = str(getpass.getpass("ENTER A NEW PIN: "))
         print("*****************************")
         print("-----------------------------")
+        if new_pin.isdigit() and new_pin != pins[n] and len(new_pin) == 4:
 
 
 
