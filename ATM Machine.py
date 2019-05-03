@@ -176,13 +176,13 @@ while True: #  os.system("clear")
             print("******************")
             new_ppin = str(getpass.getpass("CONFIRM NEW PIN: "))
             print("*******************")
-            print('-------------------')
+            print("-------------------")
             if new_ppin != new_pin:
-                print('------------')
-                print('************')
-                print('PIN MISMATCH')
-                print('************')
-                print('------------')
+                print("------------")
+                print("************")
+                print("PIN MISMATCH")
+                print("************")
+                print("------------")
 
 
 
