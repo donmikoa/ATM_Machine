@@ -183,6 +183,9 @@ while True: #  os.system("clear")
                 print("PIN MISMATCH")
                 print("************")
                 print("------------")
+            else:
+                pin[n] = new_pin
+                print("NEW PIN SAVED")
 
 
 
