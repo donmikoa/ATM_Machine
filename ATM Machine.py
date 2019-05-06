@@ -185,7 +185,11 @@ while True: #  os.system("clear")
                 print("------------")
             else:
                 pin[n] = new_pin
-                print("NEW PIN SAVED")
+                print("NEW PIN SAVED ")
+        else:
+            print("-------------------------------------")
+            print("*************************************")
+
 
 
 
