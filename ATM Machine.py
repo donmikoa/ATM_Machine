@@ -190,7 +190,8 @@ while True: #  os.system("clear")
             print("-------------------------------------")
             print("*************************************")
             print("   NEW PIN MUST CONSIST OF 4 DIGITS \nAND MUST BE DIFFERENT TO PREVIOUS PIN")
-
+            print("*************************************")
+            print("-------------------------------------")
 
 
 
