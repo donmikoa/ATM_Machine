@@ -192,6 +192,8 @@ while True: #  os.system("clear")
             print("   NEW PIN MUST CONSIST OF 4 DIGITS \nAND MUST BE DIFFERENT TO PREVIOUS PIN")
             print("*************************************")
             print("-------------------------------------")
+    elif response == 'q':
+        exit()
 
 
 
