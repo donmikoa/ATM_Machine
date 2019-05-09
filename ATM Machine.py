@@ -194,6 +194,9 @@ while True: #  os.system("clear")
             print("-------------------------------------")
     elif response == 'q':
         exit()
+    else:
+        print('------------------')
+
 
 
 
