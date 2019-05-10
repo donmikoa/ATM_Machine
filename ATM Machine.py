@@ -196,6 +196,7 @@ while True: #  os.system("clear")
         exit()
     else:
         print("------------------")
+        print("------------------")
 
 
 
