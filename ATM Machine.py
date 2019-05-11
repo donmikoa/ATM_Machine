@@ -197,6 +197,7 @@ while True: #  os.system("clear")
     else:
         print("------------------")
         print("------------------")
+        print("RESPONSE NOT VALID")
 
 
 
