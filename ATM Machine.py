@@ -198,8 +198,8 @@ while True: #  os.system("clear")
         print("------------------")
         print("------------------")
         print("RESPONSE NOT VALID")
-        print('******************')
-        print('------------------')
+        print("******************")
+        print("------------------")
 
 
 
